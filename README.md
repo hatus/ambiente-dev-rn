@@ -22,6 +22,8 @@ Recomendo que sempre faça o download da última versão LTS (Long Term Support)
 
 ![nodejs](images/nodelts.png)
 
+> Nota: com este pacote, será instalado tanto o **Node.js** como o **NPM** (Node Package Manager) que é o gerenciador de pacotes do Node.js.
+
 ### Instalação
 
 A instalação do Node.js é bem simples e segue o padrão de instalação da maioria dos programas do Windows: Next Next Next:
@@ -42,9 +44,11 @@ Se a opção abaixo estiver marcada, **desmarque**:
 <br><br>
 ![install-node1](images/install-node5.png)
 <br><br>
-Agora só clicar em instalar e esprar terminar a instalação:
+Agora só clicar em _Install_ para dar início a instalação:
 <br><br>
 ![install-node1](images/install-node6.png)
+
+### Pós-Instalação
 
 ## VS Code
 
