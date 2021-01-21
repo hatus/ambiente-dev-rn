@@ -71,7 +71,7 @@ Faça o download clicando no link como descrito na figura abaixo:
 
 ### 🔨 Instalação
 
-A instalação do VS Code tão simples quanto a do Nodejs.js: a base de Next.
+A instalação do VS Code é tão simples quanto a do Nodejs.js: a base de Next.
 
 ![install-vscode1](./images/install-vscode-1.png)
 <br><br>
