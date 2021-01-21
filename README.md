@@ -75,11 +75,12 @@ A instalação do VS Code tão simples quanto a do Nodejs.js: a base de Next.
 
 ![install-vscode1](./images/install-vscode-1.png)
 <br><br>
-A opção selecionada abaixo é obrigatória, as outras fica a seu critério:
+A opção selecionada abaixo é obrigatória, as outras ficam a seu critério:
 <br><br>
 ![install-vscode1](./images/install-vscode-2.png)
 <br><br>
 ![install-vscode1](./images/install-vscode-3.png)
 <br><br>
+Pronto! VS Code instalado com sucesso.
 
 ## Android Studio
