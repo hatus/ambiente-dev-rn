@@ -6,7 +6,7 @@
 
 Tutorial de como criar um ambiente de desenvolvimento no Windows para React Native.
 
-## 📥 Pré-requisitos (Download)
+## 📥 Pré-requisitos (Links para Download)
 
 - <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
 - <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
@@ -26,7 +26,7 @@ Recomendo que sempre faça o download da última versão LTS (Long Term Support)
 
 ### 🔨 Instalação
 
-A instalação do Node.js é bem simples e segue o padrão de instalação da maioria dos programas do Windows: Next Next Next:
+A instalação do Node.js é bem simples e segue o padrão de instalação da maioria dos programas do Windows (Next Next Next):
 <br><br>
 ![install-node1](images/install-node1.png)
 <br><br>
