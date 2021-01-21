@@ -54,7 +54,7 @@ Após o término da instalação do Node.js, vamos verificar se ele está instal
 
 ![pos-install-node](./images/pos-install-node.png)
 
-A instalação foi um sucesso!
+✅ A instalação foi um sucesso!
 
 ## VS Code
 
