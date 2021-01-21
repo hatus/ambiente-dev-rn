@@ -2,7 +2,7 @@
 
 <div align='center'>
   <a href="https://reactnative.dev/"><img src="./images/rnlogo.png"></a>
-  <p>Criando um ambiente de desenvolvimento no Windows para React Native.</p>
+  <p>Configurando um ambiente de desenvolvimento no Windows para React Native.</p>
 </div>
 
 ## 📥 Pré-requisitos (Links para Download)
