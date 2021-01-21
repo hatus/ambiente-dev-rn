@@ -1,15 +1,15 @@
 # 💻 Ambiente de Desenvolvimento React Native 📱
 
 <div align='center'>
-  <a href="https://reactnative.dev/" target="_blank"><img src="./images/rnlogo.png"></a>
-  <p style="font-size:1.4rem;">Criando um ambiente de desenvolvimento no Windows para React Native.</p>
+  <a href="https://reactnative.dev/"><img src="./images/rnlogo.png"></a>
+  <p>Criando um ambiente de desenvolvimento no Windows para React Native.</p>
 </div>
 
 ## 📥 Pré-requisitos (Links para Download)
 
-- <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
-- <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
-- <a href="https://developer.android.com/studio?hl=pt-br" target="_blank">Android Studio</a>
+- [Node.js](https://nodejs.org/en/download/)
+- [VS Code](https://code.visualstudio.com/download)
+- [Android Studio](https://developer.android.com/studio?hl=pt-br)
 
 ## 🛠️ Guia de Instalação
 
