@@ -84,3 +84,13 @@ A opção selecionada abaixo é obrigatória, as outras ficam a seu critério:
 Pronto! VS Code instalado com sucesso.
 
 ## Android Studio
+
+### 📥 Download
+
+[Clique aqui](https://developer.android.com/studio?hl=pt-br) para ir para a página de download.
+
+Faça o download clicando no link como descrito na figura abaixo:
+
+![vscodedl](./images/downloadstudio.png)
+
+### 🔨 Instalação
