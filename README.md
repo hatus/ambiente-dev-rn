@@ -150,7 +150,7 @@ Clique em **Apply** para começar a instalação.
 
 Vamos configurar algumas variáveis de ambiente para completarmos a configuração.
 
-### Variáveis ANDROID_HOME e ANDROID_SDK_ROOT
+### Variáveis `ANDROID_HOME` e `ANDROID_SDK_ROOT`
 
 1. Abra o **Painel de Controle**.
 2. Clique em **Contas de Usuário**, depois **Contas de Usuário** novamente.
@@ -178,3 +178,17 @@ Para termos certeza que todas as variáveis foram configuradas corretamente, sig
 3. E verifique se as variáveis `ANDROID_HOME` e `ANDROID_SDK_ROOT` foram adicionadas.
 
 ### Adicionando `platform-tools` e `emulator` no PATH
+
+1. Abra o **Painel de Controle**.
+2. Clique em **Contas de Usuário**, depois **Contas de Usuário** novamente.
+3. Clique em **Alterar as variáveis do meu ambiente**.
+4. Selecione a variável **Path**.
+5. Clique em **Editar**
+6. Clique em **Novo** e adicione path de `platform-tools`
+7. Clique em **Novo** e adicione path de `emulator`
+
+```
+📍 IMPORTANTE
+
+Tanto o path de **platform-tools** como o de **emulator** estão dentro do diretório **ANDROID_HOME**, configurado anteriormente.
+```
