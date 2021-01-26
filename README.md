@@ -5,6 +5,25 @@
   <p>Configurando um ambiente de desenvolvimento no Windows para React Native.</p>
 </div>
 
+## Índice
+
+- [📥 Pré-requisitos (Links para Download)](#-pré-requisitos-links-para-download)
+- [🛠️ Guia de Instalação](#️-guia-de-instalação)
+- [🟢 Node.js](#-nodejs)
+  - [📥 Download](#-download)
+  - [🔨 Instalação](#-instalação)
+  - [✅ Pós-Instalação](#-pós-instalação)
+- [📰 VS Code](#-vs-code)
+  - [📥 Download](#-download-1)
+  - [🔨 Instalação](#-instalação-1)
+- [🤖 Android Studio](#-android-studio)
+  - [📥 Download](#-download-2)
+  - [🔨 Instalação](#-instalação-2)
+  - [👨🏽‍💻 Configuração do Android Studio](#-configuração-do-android-studio)
+- [💲 Variáveis de Ambiente](#-variáveis-de-ambiente)
+  - [Variáveis `ANDROID_HOME` e `ANDROID_SDK_ROOT`](#variáveis-android_home-e-android_sdk_root)
+  - [Adicionando `platform-tools` e `emulator` no PATH](#adicionando-platform-tools-e-emulator-no-path)
+
 ## 📥 Pré-requisitos (Links para Download)
 
 - [Node.js](https://nodejs.org/en/download/)
