@@ -13,7 +13,7 @@
 
 ## 🛠️ Guia de Instalação
 
-## Node.js
+## 🟢 Node.js
 
 ### 📥 Download
 
@@ -57,7 +57,7 @@ Após o término da instalação do Node.js, vamos verificar se ele está instal
 
 A instalação foi um sucesso!
 
-## VS Code
+## 📰 VS Code
 
 ### 📥 Download
 
@@ -83,7 +83,7 @@ A opção selecionada abaixo é obrigatória, as outras ficam a seu critério:
 <br><br>
 Pronto! VS Code instalado com sucesso.
 
-## Android Studio
+## 🤖 Android Studio
 
 ### 📥 Download
 
@@ -94,3 +94,87 @@ Faça o download clicando no link como descrito na figura abaixo:
 ![vscodedl](./images/downloadstudio.png)
 
 ### 🔨 Instalação
+
+Como já estamos _experts_ em clicar em _Next_, aqui não vai ser diferente:
+
+![install-studio-1](./images/install-studio-1.png)
+
+> Nota: Deixe a opção _Android Virtual Device_ marcada, pois vamos precisar do simulador de dispositivo android para o desenvolvimento.
+
+> Nota 2: O restante da instalação é bem intuitivo, assim vou omitir alguns _prints_.
+
+### 👨🏽‍💻 Configuração do Android Studio
+
+Ao abrir o Android Studio, ele mostra a seguinte dela:
+
+![install-studio-2](./images/install-studio-2.png)
+
+Clica em **Configure**, como indicado na imagem acima, e depois em **SDK Manager**. Irá abrir a seguinte tela:
+
+![install-studio-3](./images/install-studio-3.png)
+
+Na janela acima, selecione a checkbox _Show Package Details_, como indicado no quadrado acima da figura acima.
+
+Após aparecer todas as opções, selecione as checkboxes que estão marcadas como na figura acima, que são elas:
+
+- Android 11.0 (R)
+  - [x] Android SDK Platform 30
+  - [x] Google APIs Intel x86 Atom System Image
+- Android 10.0 (Q)
+  - [x] Android SDK Platform 29
+  - [x] Google APIs Intel x86 Atom System Image
+
+Clique em **Apply** para começar a instalação.
+
+Após a instalação da _SDK Platform_, vamos instalar a _SDK Tools_. Na aba **SDK Tools** (seta verde da figura abaixo):
+
+![install-studio-4](./images/install-studio-4.png)
+
+Na seção **Android SDK Build-Tools**, tenha certeza que as checkboxes estão selecionadas:
+
+- [x] Android SDK Build-Tools
+  - [x] 30.0.2
+  - [x] 29.0.2
+
+Selecione também as checkboxes abaixo:
+
+- [x] Android Emulator
+- [x] Android SDK Platform-Tools
+- [x] Intel x86 Emulator Accelerator tabajara (HAXM installer)
+
+Clique em **Apply** para começar a instalação.
+
+✅ Pronto. Android Studio configurado com sucesso.
+
+## 💲 Variáveis de Ambiente
+
+Vamos configurar algumas variáveis de ambiente para completarmos a configuração.
+
+### Variáveis ANDROID_HOME e ANDROID_SDK_ROOT
+
+1. Abra o **Painel de Controle**.
+2. Clique em **Contas de Usuário**, depois **Contas de Usuário** novamente.
+3. Clique em **Alterar as variáveis do meu ambiente**.
+4. Clique em **Novo...** para criar a nova variável de usuário **ANDROID_HOME** para apontar para o path do Android SDK:
+
+![var-amb-1](./images/var-amb-1.png)
+
+5. Também crie uma nova variável de ambiente chamada **ANDROID_SDK_ROOT** com o mesmo conteúdo da variável **ANDROID_HOME**.
+
+O SDK é instalado por padrão no diretório:
+
+```
+%LOCALAPPDATA%\Android\Sdk
+```
+
+Você pode descobrir a localização da instalação do seu SDK na seguinte imagem:
+
+![var-amb-2](./images/var-amb-2.png)
+
+Para termos certeza que todas as variáveis foram configuradas corretamente, siga os seguintes passos:
+
+1. Abra o powershell.
+2. Copie e cole o comando `Get-ChildItem -Path Env:\`
+3. E verifique se as variáveis `ANDROID_HOME` e `ANDROID_SDK_ROOT` foram adicionadas.
+
+### Adicionando `platform-tools` e `emulator` no PATH
