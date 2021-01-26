@@ -185,10 +185,8 @@ Para termos certeza que todas as variáveis foram configuradas corretamente, sig
 4. Selecione a variável **Path**.
 5. Clique em **Editar**
 6. Clique em **Novo** e adicione path de `platform-tools`
+   1. Path: %LOCALAPPDATA%\Android\Sdk\platform-tools
 7. Clique em **Novo** e adicione path de `emulator`
+   1. Path: %LOCALAPPDATA%\Android\Sdk\emulator
 
-```
-📍 IMPORTANTE
-
-Tanto o path de **platform-tools** como o de **emulator** estão dentro do diretório **ANDROID_HOME**, configurado anteriormente.
-```
+> Nota: coloque o Path de acordo com a instalação do seu SDK.
